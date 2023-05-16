@@ -1,4 +1,4 @@
-#inculde "binary_tree.h"
+#include "binary_tree.h"
 
 void binary_tree_delete(binary_tree_t *tree) 
 {
