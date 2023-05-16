@@ -79,8 +79,9 @@ Keys − Key represents a value of a node based on which a search operation is t
 ----------------------------------------------------------------------------------------------------------------
 ``` 
 Preorder Traversal 
-In this traversal, we first print the data of the current node and then move to the left subtree first and after 
-that move to the right subtree. The preorder traversal of the above binary tree is 0 1 3 4 2 5 6.
+In this traversal, we first print the data of the current node and then move to the left subtree
+first and after that move to the right subtree. The preorder traversal of the above
+binary tree is 0 1 3 4 2 5 6.
 
 
 Algorithm: 
