@@ -1,12 +1,13 @@
-#include "binary_trees.h"
+#inculde "binary_tree.h"
 
-int binary_tree_is_root(const binary_tree_t *node) 
+void binary_tree_delete(binary_tree_t *tree) 
 {
-	if (node == NULL) 
-	{
-	return (0); 
-	}
+    if (tree == NULL) 
+{
+        return;
+    }
 
-	return (node->parent == NULL) ? 1 : 0;  
+    binary_tree_delete(tree->left);  
+    binary_tree_delete(tree->right)
+
 }
- 
