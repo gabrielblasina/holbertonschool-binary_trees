@@ -76,7 +76,43 @@ Levels − Level of a node represents the generation of a node. If the root node
 
 Keys − Key represents a value of a node based on which a search operation is to be carried out for a node.
 
----------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
+``` 
+Preorder Traversal 
+In this traversal, we first print the data of the current node and then move to the left subtree first and after 
+that move to the right subtree. The preorder traversal of the above binary tree is 0 1 3 4 2 5 6.
+
+
+Algorithm: 
+ Preorder(root): 
+Step:1 Print the data of the Node. 
+Step:2 Move to the left side of the node(traverse left-subtree). 
+Step:3 Move to the right side of the node(traverse right-subtree).
+
+
+Inorder Traversal
+In this traversal, we first move to the left subtree and then print the data of the node.
+After printing the data of the node move to the right subtree. The inorder traversal of the above binary tree is 1 3 4 0 2 5 6.
+
+
+Algorithm:  
+Inorder(root): 
+Step:1 Move to the left side of the node(traverse left-subtree). 
+Step:2 Print the data of the Node.  
+Step:3 Move to the right side of the node(traverse right-subtree).
+
+Postorder Traversal
+In this traversal, we first move to the left subtree and then move to the right subtree. 
+After moving print the data of the node. The postorder traversal of the above binary tree is 1 3 4 2 5 6 0.
+
+
+Algorithm: 
+Postorder(root): 
+Step:1 Move to the left side of the node(traverse left-subtree). 
+Step:2 Move to the right side of the node(traverse right-subtree). 
+Step:3 Print the data of the Node.
+```
+----------------------------------------------------------------------------------------------------------------
 
 
 ### Learning objectives for this project
