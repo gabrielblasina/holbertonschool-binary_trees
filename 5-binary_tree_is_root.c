@@ -4,7 +4,7 @@
 {
 	if (node == NULL)
 	{
-		retunr (0); /*if node is NUll, it cannot be a root */
+		return (0); /*if node is NUll, it cannot be a root */
 
 	}
 
