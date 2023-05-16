@@ -14,7 +14,7 @@ Each node can have subtrees that are also binary trees.
 
 In this case, the root node has the value 1. It has a left child with value 2 and a right child with value 3.
 
-in C language, you can represent a binary tree using structures.
+##### in C language, you can represent a binary tree using structures.
 
 ```
 struct Node
@@ -43,6 +43,47 @@ Step 6: If a new node is larger than the node, move to its right child.
 
 Step 7: Repeat the process until we reach to a leaf node.
 
+--------------------------------------------------------------------------------------------------------------
 
-/* site under construction */
+What are Trees in C?
+As you know that arrays, linked lists, Stacks and Queues are linear data structures. And on the other hand, Trees are hierarchical data structures. A tree includes multiple nodes. In C, we call it a Binary Tree. A tree is referred to as a finite and non-empty set of elements in mathematical terminology.
+
+
+![tree_data_structure](https://github.com/gabrielblasina/holbertonschool-binary_trees/assets/124454895/a5d73c80-cebe-43d2-a9fa-3befff0494dd)
+
+
+
+
+Following are the important terms with respect to tree.
+
+Path − Path refers to the sequence of nodes along the edges of a tree.
+
+Root − The node at the top of the tree is called root. There is only one root per tree and one path from the root node to any node.
+
+Parent − Any node except the root node has one edge upward to a node called parent.
+
+Child − The node below a given node connected by its edge downward is called its child node.
+
+Leaf − The node which does not have any child node is called the leaf node.
+
+Subtree − Subtree represents the descendants of a node.
+
+Visiting − Visiting refers to checking the value of a node when control is on the node.
+
+Traversing − Traversing means passing through nodes in a specific order.
+
+Levels − Level of a node represents the generation of a node. If the root node is at level 0, then its next child node is at level 1, its grandchild is at level 2, and so on.
+
+Keys − Key represents a value of a node based on which a search operation is to be carried out for a node.
+
+---------------------------------------------------------------------------------------------------------------
+
+
+### Learning objectives for this project
+- What is a binary tree
+- What is the difference between a binary tree and a Binary Search Tree
+- What is the possible gain in terms of time complexity compared to linked lists
+- What are the depth, the height, the size of a binary tree
+- What are the different traversal methods to go through a binary tree
+- What is a complete, a full, a perfect, a balanced binary tree
 
