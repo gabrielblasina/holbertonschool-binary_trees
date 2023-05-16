@@ -8,5 +8,5 @@
 
 	}
 
-	return (node->psrent == NULL);
+	return (node->parent == NULL);
 }
