@@ -8,5 +8,5 @@
 
 	}
 
-	return (node->parent == NULL);
+	return (node->parent == NULL) ? 1 : 0; /* return 1 if node's parent is NULL, otherwise 0 */
 }
