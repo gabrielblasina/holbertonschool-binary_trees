@@ -92,7 +92,8 @@ Step:3 Move to the right side of the node(traverse right-subtree).
 
 Inorder Traversal
 In this traversal, we first move to the left subtree and then print the data of the node.
-After printing the data of the node move to the right subtree. The inorder traversal of the above binary tree is 1 3 4 0 2 5 6.
+After printing the data of the node move to the right subtree. 
+The inorder traversal of the above binary tree is 1 3 4 0 2 5 6.
 
 
 Algorithm:  
@@ -103,7 +104,8 @@ Step:3 Move to the right side of the node(traverse right-subtree).
 
 Postorder Traversal
 In this traversal, we first move to the left subtree and then move to the right subtree. 
-After moving print the data of the node. The postorder traversal of the above binary tree is 1 3 4 2 5 6 0.
+After moving print the data of the node. 
+The postorder traversal of the above binary tree is 1 3 4 2 5 6 0.
 
 
 Algorithm: 
